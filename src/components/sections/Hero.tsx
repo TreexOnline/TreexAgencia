@@ -21,17 +21,16 @@ const Hero = () => {
             className="mt-5 animate-fade-in-up font-display font-bold leading-[1.08] tracking-tight text-[28px] sm:mt-7 sm:text-[40px] md:text-[56px] md:leading-[1.05] lg:text-[68px]"
             style={{ animationDelay: "0.1s", opacity: 0 }}
           >
-            Você tem um comércio ou é um profissional buscando
-            <span className="text-gradient"> mais clientes todos os dias?</span>
+            Seu WhatsApp parou de tocar?
+            <span className="text-gradient"> Nós fazem ele tocar todos os dias.</span>
           </h1>
 
           <p
             className="mt-5 animate-fade-in-up text-[15px] leading-relaxed text-muted-foreground sm:mt-7 sm:text-base md:text-lg lg:text-xl"
             style={{ animationDelay: "0.25s", opacity: 0 }}
           >
-            Nós criamos <span className="font-semibold text-foreground">sistemas, anúncios e automações</span>{" "}
-            que transformam seu negócio em uma{" "}
-            <span className="font-semibold text-foreground">máquina previsível de vendas</span> — mesmo se você nunca investiu em marketing antes.
+            <span className="font-semibold text-foreground">Clientes todos os dias no WhatsApp</span> — mesmo se você nunca fez marketing antes.
+            Sem complicação, sem teoria, só resultado.
           </p>
 
           <ul
@@ -56,7 +55,7 @@ const Hero = () => {
             style={{ animationDelay: "0.55s", opacity: 0 }}
           >
             <WhatsAppButton className="w-full sm:w-auto">
-              Quero meu diagnóstico
+              FALAR NO WHATSAPP AGORA
             </WhatsAppButton>
             <a
               href="#servicos"
@@ -71,7 +70,7 @@ const Hero = () => {
             className="mt-4 animate-fade-in-up text-center text-[11px] text-muted-foreground sm:text-xs md:text-left md:text-sm"
             style={{ animationDelay: "0.7s", opacity: 0 }}
           >
-            ⚡ Resposta em poucos minutos · Sem compromisso · Sem enrolação
+            ⚡ Resposta em 2 minutos · 100% gratuito · Só clientes reais
           </p>
         </div>
       </div>

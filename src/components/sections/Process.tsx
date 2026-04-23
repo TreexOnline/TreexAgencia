@@ -1,29 +1,30 @@
 import Reveal from "../Reveal";
+import WhatsAppButton from "../WhatsAppButton";
 
 const steps = [
   {
     n: "01",
     title: "Diagnóstico",
-    bold: "Entendemos seu negócio de verdade.",
-    desc: "Conversa de 30 minutos pra mapear ofertas, ticket médio, gargalos e onde o dinheiro está vazando. Você sai com clareza, não com proposta empurrada.",
+    bold: "30 minutos no WhatsApp",
+    desc: "Entendemos seu negócio e mostramos exatamente o que precisa fazer agora. Saindo com plano claro, não com papo furado.",
   },
   {
     n: "02",
     title: "Estratégia",
-    bold: "Montamos um plano sob medida.",
-    desc: "Definimos canal, oferta, funil, automação e métricas de sucesso. Tudo escrito, com prazo e responsável. Sem promessa vaga.",
+    bold: "Plano de ataque",
+    desc: "Montamos a estratégia exata pro seu nicho. Anúncios que convertem, mensagens que vendem, automação que trabalha pra você.",
   },
   {
     n: "03",
     title: "Execução",
-    bold: "Colocamos a máquina pra rodar.",
-    desc: "Lançamos campanhas, configuramos automações, desenvolvemos o que precisa. Em poucos dias você já tem lead novo entrando.",
+    bold: "WhatsApp tocando",
+    desc: "Ligamos a máquina e em dias você já tem clientes novos entrando. Sem precisar fazer nada, só atender e vender.",
   },
   {
     n: "04",
     title: "Escala",
-    bold: "Otimizamos e multiplicamos o que funciona.",
-    desc: "Acompanhamento semanal por dados reais. Cortamos o que não converte, dobramos o que vende. Crescimento previsível, mês após mês.",
+    bold: "Mais clientes todo dia",
+    desc: "Otimizamos o que funciona e multiplica os resultados. Crescimento real que você vê no caixa todo mês.",
   },
 ];
 
@@ -39,14 +40,14 @@ const Process = () => {
           </Reveal>
           <Reveal variant="blur-in" delay={120} duration={900}>
             <h2 className="mt-4 font-display font-bold leading-[1.12] text-[26px] sm:mt-6 sm:text-[34px] md:text-[44px] lg:text-5xl">
-              Do <span className="text-gradient">caos</span> ao crescimento previsível em{" "}
+              Do <span className="text-gradient">silêncio</span> ao WhatsApp cheio em{" "}
               <span className="text-gradient">4 passos.</span>
             </h2>
           </Reveal>
           <Reveal variant="fade-up" delay={300}>
             <p className="mx-auto mt-4 max-w-2xl text-[14px] leading-relaxed text-muted-foreground sm:mt-5 sm:text-base md:text-lg">
-              Nada de promessa mágica. Um método claro, executado por especialistas,
-              com acompanhamento real do começo ao fim.
+              Método testado que transforma seu WhatsApp em máquina de vendas.
+              <span className="font-semibold text-foreground"> Sem complicação.</span>
             </p>
           </Reveal>
         </div>
@@ -74,6 +75,27 @@ const Process = () => {
             ))}
           </div>
         </div>
+
+        <Reveal variant="zoom-in" delay={600} duration={900}>
+          <div className="mx-auto mt-10 max-w-2xl text-center sm:mt-14">
+            <div className="rounded-2xl border border-primary/30 bg-primary/[0.06] p-6 backdrop-blur sm:p-8">
+              <h3 className="font-display text-lg font-bold text-foreground sm:text-xl md:text-2xl">
+                Pronto para fazer seu WhatsApp tocar todos os dias?
+              </h3>
+              <p className="mt-2 text-[13px] text-muted-foreground sm:mt-3 sm:text-sm">
+                Comece agora mesmo. Em 30 minutos você já sabe exatamente o que fazer.
+              </p>
+              <div className="mt-4 sm:mt-6">
+                <WhatsAppButton variant="whatsapp" className="w-full sm:w-auto">
+                  COMEÇAR AGORA
+                </WhatsAppButton>
+              </div>
+              <p className="mt-3 text-[11px] text-muted-foreground sm:mt-4 sm:text-xs">
+                ⚡ Vagas limitadas · Resposta em 2 minutos
+              </p>
+            </div>
+          </div>
+        </Reveal>
       </div>
     </section>
   );

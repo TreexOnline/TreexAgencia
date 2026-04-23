@@ -6,6 +6,7 @@ import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 
 // Lazy-load das seções abaixo da dobra para acelerar o LCP
 const Problem = lazy(() => import("@/components/sections/Problem"));
+const SocialProof = lazy(() => import("@/components/sections/SocialProof"));
 const Services = lazy(() => import("@/components/sections/Services"));
 const Process = lazy(() => import("@/components/sections/Process"));
 const ForWhom = lazy(() => import("@/components/sections/ForWhom"));
@@ -88,6 +89,7 @@ const Index = () => {
         <Hero />
         <Suspense fallback={<SectionFallback />}>
           <Problem />
+          <SocialProof />
           <Services />
           <Process />
           <ForWhom />

@@ -46,13 +46,13 @@ const Services = () => {
           <Reveal variant="blur-in" delay={120} duration={900}>
             <h2 className="mt-4 font-display font-bold leading-[1.12] text-[26px] sm:mt-6 sm:text-[34px] md:text-[44px] lg:text-5xl">
               Não vendemos <span className="text-muted-foreground line-through">post bonito</span>.{" "}
-              Vendemos <span className="text-gradient">cliente entrando.</span>
+              Fazemos seu <span className="text-gradient">WhatsApp tocar.</span>
             </h2>
           </Reveal>
           <Reveal variant="fade-up" delay={300}>
             <p className="mx-auto mt-4 max-w-2xl text-[14px] leading-relaxed text-muted-foreground sm:mt-5 sm:text-base md:text-lg">
-              Cada serviço aqui existe por uma razão: <span className="font-semibold text-foreground">tirar você da dependência da sorte</span> e
-              colocar o seu negócio num sistema que gera vendas todos os dias.
+              Cada serviço aqui tem um só objetivo: <span className="font-semibold text-foreground">clientes todos os dias no seu WhatsApp</span>
+              sem que você precise fazer nada.
             </p>
           </Reveal>
         </div>
@@ -112,14 +112,17 @@ const Services = () => {
         <Reveal variant="zoom-in" delay={150}>
           <div className="mx-auto mt-10 max-w-2xl text-center sm:mt-14">
             <p className="text-[13px] text-muted-foreground sm:text-sm md:text-base">
-              Quer saber qual desses serviços é prioridade pro seu negócio agora?
+              Quer saber exatamente o que seu negócio precisa agora?
             </p>
             <div className="mt-4 flex justify-center px-2">
               <WhatsAppButton className="w-full max-w-sm sm:w-auto">
-                Pedir diagnóstico gratuito
+                FALAR COM ESPECIALISTA
                 <ArrowRight className="ml-1 h-4 w-4 shrink-0" />
               </WhatsAppButton>
             </div>
+            <p className="mt-3 text-[11px] text-muted-foreground sm:mt-4 sm:text-xs">
+              ⚡ Resposta em 2 minutos · 100% gratuito
+            </p>
           </div>
         </Reveal>
       </div>

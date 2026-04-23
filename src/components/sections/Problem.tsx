@@ -3,20 +3,20 @@ import Reveal from "../Reveal";
 
 const pains = [
   {
-    title: "Investe em anúncio e não vê retorno",
-    desc: "Você impulsiona post, paga gestor, mas no fim do mês não sabe quanto entrou de cliente novo nem quanto faturou de verdade.",
+    title: "WhatsApp parado de tocar",
+    desc: "Você olha o celular o dia todo e nada. Nenhuma mensagem de cliente novo. O caixa não fecha e você não sabe o que fazer.",
   },
   {
-    title: "Depende do boca-a-boca e da indicação",
-    desc: "Seu faturamento sobe e desce de forma imprevisível. Quando para de aparecer indicação, o telefone simplesmente para de tocar.",
+    title: "Vem um cliente, some dois",
+    desc: "Quando aparece um cliente, você comemora. Mas no dia seguinte o silêncio volta. Não tem fila, não tem previsibilidade.",
   },
   {
-    title: "Perde lead porque demora pra responder",
-    desc: "Cliente manda mensagem fora do horário, você responde no outro dia e ele já fechou com o concorrente que respondeu na hora.",
+    title: "Cliente manda, você demora",
+    desc: "Cliente manda mensagem às 22h, você só vê no outro dia. Resultado? Ele já fechou com quem respondeu na hora.",
   },
   {
-    title: "Tem um site bonito mas que não vende",
-    desc: "Você gastou com um site que serve só de cartão de visita. Ele não captura contato, não qualifica e não converte ninguém em cliente.",
+    title: "Anúncio que só queima dinheiro",
+    desc: "Você coloca R$500 em anúncio e não sabe se veio 1 cliente ou 10. No fim do mês, só prejuízo e dor de cabeça.",
   },
 ];
 
@@ -32,14 +32,14 @@ const Problem = () => {
           </Reveal>
           <Reveal variant="blur-in" delay={120} duration={900}>
             <h2 className="mt-4 font-display font-bold leading-[1.12] text-[26px] sm:mt-6 sm:text-[34px] md:text-[44px] lg:text-5xl">
-              A verdade é que <span className="text-gradient">você não tem um problema de produto.</span>{" "}
-              Você tem um problema de <span className="text-gradient">previsibilidade.</span>
+              O problema não é você.
+              É o <span className="text-gradient">silêncio no seu WhatsApp.</span>
             </h2>
           </Reveal>
           <Reveal variant="fade-up" delay={300} duration={800}>
             <p className="mx-auto mt-4 max-w-2xl text-[14px] leading-relaxed text-muted-foreground sm:mt-5 sm:text-base md:text-lg">
-              Todo mês começa do zero. Sem fila de orçamentos, sem certeza se o caixa fecha,
-              sem saber de onde vai vir o próximo cliente. <span className="font-semibold text-foreground">Isso precisa acabar.</span>
+              Todo dia é a mesma incerteza. Será que hoje entra cliente? Será que o caixa fecha?
+              <span className="font-semibold text-foreground"> Chega de viver assim.</span>
             </p>
           </Reveal>
         </div>
