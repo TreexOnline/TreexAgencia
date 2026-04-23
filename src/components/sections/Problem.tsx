@@ -3,20 +3,20 @@ import Reveal from "../Reveal";
 
 const pains = [
   {
-    title: "WhatsApp parado de tocar",
-    desc: "Você olha o celular o dia todo e nada. Nenhuma mensagem de cliente novo. O caixa não fecha e você não sabe o que fazer.",
+    title: "WhatsApp parado?",
+    desc: "Nenhuma mensagem de cliente novo. Caixa não fecha.",
   },
   {
-    title: "Vem um cliente, some dois",
-    desc: "Quando aparece um cliente, você comemora. Mas no dia seguinte o silêncio volta. Não tem fila, não tem previsibilidade.",
+    title: "Cliente some?",
+    desc: "Aparece um, some dois. Sem previsibilidade.",
   },
   {
-    title: "Cliente manda, você demora",
-    desc: "Cliente manda mensagem às 22h, você só vê no outro dia. Resultado? Ele já fechou com quem respondeu na hora.",
+    title: "Demora pra responder?",
+    desc: "Cliente manda, você demora. Ele fecha com concorrente.",
   },
   {
-    title: "Anúncio que só queima dinheiro",
-    desc: "Você coloca R$500 em anúncio e não sabe se veio 1 cliente ou 10. No fim do mês, só prejuízo e dor de cabeça.",
+    title: "Anúncio queima dinheiro?",
+    desc: "Coloca dinheiro e não sabe se veio cliente. Só prejuízo.",
   },
 ];
 
@@ -32,14 +32,12 @@ const Problem = () => {
           </Reveal>
           <Reveal variant="blur-in" delay={120} duration={900}>
             <h2 className="mt-4 font-display font-bold leading-[1.12] text-[26px] sm:mt-6 sm:text-[34px] md:text-[44px] lg:text-5xl">
-              O problema não é você.
-              É o <span className="text-gradient">silêncio no seu WhatsApp.</span>
+              Seu WhatsApp <span className="text-gradient">não toca?</span>
             </h2>
           </Reveal>
           <Reveal variant="fade-up" delay={300} duration={800}>
             <p className="mx-auto mt-4 max-w-2xl text-[14px] leading-relaxed text-muted-foreground sm:mt-5 sm:text-base md:text-lg">
-              Todo dia é a mesma incerteza. Será que hoje entra cliente? Será que o caixa fecha?
-              <span className="font-semibold text-foreground"> Chega de viver assim.</span>
+              <span className="font-semibold text-foreground">Nós resolvemos isso.</span>
             </p>
           </Reveal>
         </div>

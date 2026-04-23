@@ -22,33 +22,8 @@ const Hero = () => {
             style={{ animationDelay: "0.1s", opacity: 0 }}
           >
             Seu WhatsApp parou de tocar?<br className="sm:hidden" />
-            <span className="text-gradient"> Nós fazemos ele tocar todos os dias.</span>
+            <span className="text-gradient"> Fazemos ele tocar todos os dias.</span>
           </h1>
-
-          <p
-            className="mt-5 animate-fade-in-up text-[15px] leading-relaxed text-muted-foreground sm:mt-7 sm:text-base md:text-lg lg:text-xl"
-            style={{ animationDelay: "0.25s", opacity: 0 }}
-          >
-            <span className="font-semibold text-foreground">Clientes todos os dias no WhatsApp</span> — mesmo se você nunca fez marketing antes.<br className="sm:hidden" />
-            Sem complicação, sem teoria, só resultado.
-          </p>
-
-          <ul
-            className="mx-auto mt-6 grid animate-fade-in-up gap-2 text-left text-[13px] text-foreground/90 sm:mt-7 sm:gap-2.5 sm:text-sm md:mx-0 md:max-w-2xl md:grid-cols-2 md:text-[15px]"
-            style={{ animationDelay: "0.4s", opacity: 0 }}
-          >
-            {[
-              "Mais orçamentos no seu WhatsApp",
-              "Estratégia feita para seu nicho",
-              "Atendimento automatizado 24h",
-              "Tudo medido em vendas reais",
-            ].map((b) => (
-              <li key={b} className="flex items-start gap-2">
-                <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-primary-glow sm:h-5 sm:w-5" />
-                <span>{b}</span>
-              </li>
-            ))}
-          </ul>
 
           <div
             className="mt-7 flex w-full animate-fade-in-up flex-col items-stretch gap-2.5 sm:mt-8 sm:flex-row sm:items-center sm:justify-center sm:gap-3 md:justify-start"
@@ -57,20 +32,13 @@ const Hero = () => {
             <WhatsAppButton className="w-full sm:w-auto">
               FALAR NO WHATSAPP AGORA
             </WhatsAppButton>
-            <a
-              href="#servicos"
-              className="group inline-flex h-12 w-full items-center justify-center gap-2 rounded-full border border-border bg-card/50 px-5 text-[13px] font-medium text-muted-foreground backdrop-blur transition-all hover:border-primary/40 hover:text-foreground sm:h-13 sm:w-auto sm:px-6 sm:text-sm md:h-14"
-            >
-              Ver como funciona
-              <ArrowDown className="h-4 w-4 transition-transform group-hover:translate-y-0.5" />
-            </a>
           </div>
 
           <p
             className="mt-4 animate-fade-in-up text-center text-[11px] text-muted-foreground sm:text-xs md:text-left md:text-sm"
             style={{ animationDelay: "0.7s", opacity: 0 }}
           >
-            ⚡ Resposta em 2 minutos · 100% gratuito · Só clientes reais
+            ⚡ Resposta em 2 minutos · 100% gratuito
           </p>
         </div>
       </div>

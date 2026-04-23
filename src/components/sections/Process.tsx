@@ -5,26 +5,22 @@ const steps = [
   {
     n: "01",
     title: "Diagnóstico",
-    bold: "30 minutos no WhatsApp",
-    desc: "Entendemos seu negócio e mostramos exatamente o que precisa fazer agora. Saindo com plano claro, não com papo furado.",
+    desc: "30 min no WhatsApp. Mostro o que fazer agora.",
   },
   {
     n: "02",
     title: "Estratégia",
-    bold: "Plano de ataque",
-    desc: "Montamos a estratégia exata para o seu nicho. Anúncios que convertem, mensagens que vendem, automação que trabalha para você.",
+    desc: "Plano pro seu nicho. Anúncios + mensagens.",
   },
   {
     n: "03",
     title: "Execução",
-    bold: "WhatsApp tocando",
-    desc: "Ligamos a máquina e em dias você já tem clientes novos entrando. Sem precisar fazer nada, só atender e vender.",
+    desc: "Ligo a máquina. Clientes começam a entrar.",
   },
   {
     n: "04",
     title: "Escala",
-    bold: "Mais clientes todo dia",
-    desc: "Otimizamos o que funciona e multiplica os resultados. Crescimento real que você vê no caixa todo mês.",
+    desc: "Multiplico o que funciona. Crescimento real.",
   },
 ];
 
@@ -40,14 +36,12 @@ const Process = () => {
           </Reveal>
           <Reveal variant="blur-in" delay={120} duration={900}>
             <h2 className="mt-4 font-display font-bold leading-[1.12] text-[26px] sm:mt-6 sm:text-[34px] md:text-[44px] lg:text-5xl">
-              Do <span className="text-gradient">silêncio</span> ao WhatsApp cheio em{" "}
-              <span className="text-gradient">4 passos.</span>
+              Do <span className="text-gradient">silêncio</span> ao WhatsApp cheio.
             </h2>
           </Reveal>
           <Reveal variant="fade-up" delay={300}>
             <p className="mx-auto mt-4 max-w-2xl text-[14px] leading-relaxed text-muted-foreground sm:mt-5 sm:text-base md:text-lg">
-              Método testado que transforma seu WhatsApp em máquina de vendas.
-              <span className="font-semibold text-foreground"> Sem complicação.</span>
+              <span className="font-semibold text-foreground">Método testado. Sem complicação.</span>
             </p>
           </Reveal>
         </div>
@@ -66,8 +60,7 @@ const Process = () => {
                       {s.title}
                     </h3>
                     <p className="mt-1.5 text-[13px] leading-relaxed sm:mt-2 sm:text-sm md:text-[15px]">
-                      <span className="font-semibold text-foreground">{s.bold}</span>{" "}
-                      <span className="text-muted-foreground">{s.desc}</span>
+                      {s.desc}
                     </p>
                   </div>
                 </div>

@@ -33,16 +33,15 @@ const FinalCTA = () => {
 
               <Reveal variant="blur-in" delay={200} duration={1000}>
                 <h2 className="mt-5 font-display font-bold leading-[1.08] text-[26px] sm:mt-6 sm:text-[36px] md:text-5xl lg:text-[56px]">
-                  Pare de <span className="text-muted-foreground line-through">esperar clientes</span>.{" "}
-                  Comece a <span className="text-gradient">escolher quem atender.</span>
+                  Parece de <span className="text-muted-foreground line-through">esperar</span>.{" "}
+                  <span className="text-gradient">Comece agora.</span>
                 </h2>
               </Reveal>
 
               <Reveal variant="fade-up" delay={400}>
                 <p className="mx-auto mt-5 max-w-2xl text-[14px] leading-relaxed text-muted-foreground sm:mt-6 sm:text-base md:text-lg">
-                  Em <span className="font-semibold text-foreground">30 minutos no WhatsApp</span>,
-                  vamos mostrar exatamente como fazer seu celular tocar todo dia com clientes prontos pra comprar.
-                  <span className="font-semibold text-foreground"> Sem teoria, só resultado.</span>
+                  <span className="font-semibold text-foreground">30 min no WhatsApp.</span>
+                  Mostro como fazer seu celular tocar todo dia.
                 </p>
               </Reveal>
 
@@ -67,7 +66,7 @@ const FinalCTA = () => {
               <Reveal variant="zoom-in" delay={700}>
                 <div className="mt-7 flex justify-center sm:mt-9">
                   <WhatsAppButton variant="whatsapp" className="w-full max-w-sm sm:w-auto sm:max-w-none">
-                    FALAR COM ESPECIALISTA AGORA
+                    FALAR AGORA
                   </WhatsAppButton>
                 </div>
               </Reveal>
