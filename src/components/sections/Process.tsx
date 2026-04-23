@@ -12,7 +12,7 @@ const steps = [
     n: "02",
     title: "Estratégia",
     bold: "Plano de ataque",
-    desc: "Montamos a estratégia exata pro seu nicho. Anúncios que convertem, mensagens que vendem, automação que trabalha pra você.",
+    desc: "Montamos a estratégia exata para o seu nicho. Anúncios que convertem, mensagens que vendem, automação que trabalha para você.",
   },
   {
     n: "03",

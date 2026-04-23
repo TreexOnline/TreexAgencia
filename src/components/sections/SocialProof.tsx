@@ -127,7 +127,7 @@ const SocialProof = () => {
         {/* CTA Section */}
         <Reveal variant="zoom-in" delay={600} duration={900}>
           <div className="mx-auto mt-10 max-w-2xl text-center sm:mt-14">
-            <div className="rounded-2xl border border-destructive/30 bg-destructive/5 p-6 backdrop-blur sm:p-8">
+              <div className="rounded-2xl border border-destructive/30 bg-destructive/5 p-6 backdrop-blur sm:p-8">
               <h3 className="font-display text-lg font-bold text-foreground sm:text-xl md:text-2xl">
                 Você está perdendo{" "}
                 <span className="text-gradient">clientes todos os dias</span>{" "}

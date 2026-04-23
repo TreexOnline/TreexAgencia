@@ -21,7 +21,7 @@ const Hero = () => {
             className="mt-5 animate-fade-in-up font-display font-bold leading-[1.08] tracking-tight text-[28px] sm:mt-7 sm:text-[40px] md:text-[56px] md:leading-[1.05] lg:text-[68px]"
             style={{ animationDelay: "0.1s", opacity: 0 }}
           >
-            Seu WhatsApp parou de tocar?
+            Seu WhatsApp parou de tocar?<br className="sm:hidden" />
             <span className="text-gradient"> Nós fazemos ele tocar todos os dias.</span>
           </h1>
 
@@ -29,7 +29,7 @@ const Hero = () => {
             className="mt-5 animate-fade-in-up text-[15px] leading-relaxed text-muted-foreground sm:mt-7 sm:text-base md:text-lg lg:text-xl"
             style={{ animationDelay: "0.25s", opacity: 0 }}
           >
-            <span className="font-semibold text-foreground">Clientes todos os dias no WhatsApp</span> — mesmo se você nunca fez marketing antes.
+            <span className="font-semibold text-foreground">Clientes todos os dias no WhatsApp</span> — mesmo se você nunca fez marketing antes.<br className="sm:hidden" />
             Sem complicação, sem teoria, só resultado.
           </p>
 
@@ -39,7 +39,7 @@ const Hero = () => {
           >
             {[
               "Mais orçamentos no seu WhatsApp",
-              "Estratégia feita pra seu nicho",
+              "Estratégia feita para seu nicho",
               "Atendimento automatizado 24h",
               "Tudo medido em vendas reais",
             ].map((b) => (
