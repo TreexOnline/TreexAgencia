@@ -22,7 +22,7 @@ const Hero = () => {
             style={{ animationDelay: "0.1s", opacity: 0 }}
           >
             Seu WhatsApp parou de tocar?
-            <span className="text-gradient"> Nós fazem ele tocar todos os dias.</span>
+            <span className="text-gradient"> Nós fazemos ele tocar todos os dias.</span>
           </h1>
 
           <p
