@@ -3,6 +3,7 @@ import AnimatedBackground from "@/components/AnimatedBackground";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/sections/Hero";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+import ModalEntrada from "@/components/ModalEntrada";
 
 // Lazy-load das seções abaixo da dobra para acelerar o LCP
 const Problem = lazy(() => import("@/components/sections/Problem"));
@@ -101,6 +102,7 @@ const Index = () => {
         <Footer />
       </Suspense>
       <FloatingWhatsApp />
+      <ModalEntrada />
     </div>
   );
 };
